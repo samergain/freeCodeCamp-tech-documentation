@@ -2,3 +2,27 @@ body, html {
     margin: 0px;
     padding: 0px;
 }
+#navbar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    background-color: rosybrown;
+}  
+#navbar a {
+    display: block;
+}
+
+@media only screen and (min-width: 992px) {
+  #navbar {
+      width: 15%;
+      height: 100%;
+      position: fixed;
+      left: 0px;
+      background-color: rosybrown;
+  }  
+  #navbar a {
+      display: block;
+  }
+  
+}
