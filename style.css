@@ -8,11 +8,17 @@ body, html {
     position: fixed;
     left: 0px;
     background-color: rosybrown;
+    padding: 10px;
 }  
 #navbar a {
     display: block;
 }
+main {
+    position: relative;
+    left: 20%;
+    top: 20px;
 
+}
 @media only screen and (min-width: 992px) {
   #navbar {
       width: 15%;
